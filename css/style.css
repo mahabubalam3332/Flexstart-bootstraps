@@ -1,0 +1,50 @@
+*{
+    margin:0;
+    padding: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300;500;700&family=Raleway:wght@200;300;500;700&display=swap');
+/* Global font */
+:root{
+    --primary-fonts:'Raleway', sans-serif;
+    --secondary-fonts:'Jost', sans-serif;
+    /* global color */
+    --primary-color:#5969F3;
+    --secondary-color:#093175;
+    --text-color:#5F5F61;
+    --accent:#F6F9FF;
+    /* portfolio color */
+
+}
+
+.hero-section{
+    background-image: url("../images/hero-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+.hero-left{
+   font-size: 60px;
+   font-family: var(--primary-fonts);
+   font-weight: 700;
+   line-height: 68px;
+   color:var(--secondary-color);
+   letter-spacing: .8;
+}
+.hero-left-h2{
+    color:var(--text-color);
+}
+.bg-hero{
+padding:15px 70px;
+background:var(--primary-color);
+margin-top:5px;
+color:#fff;
+font-size: 16px;
+}
+.bg-hero :hover{
+    padding:15px 70px;
+    background:var(--primary-color);
+    margin-top:5px;
+    color:#fff;
+    font-size: 16px;
+    }
+.hero-right{
+    width:100%;
+}
