@@ -20,6 +20,10 @@
     background-image: url("../images/hero-bg.png");
     background-repeat: no-repeat;
     background-size: cover;
+    background-position:left;
+    background-attachment: fixed;
+
+}
 .hero-left{
    font-size: 60px;
    font-family: var(--primary-fonts);
@@ -38,13 +42,55 @@ margin-top:5px;
 color:#fff;
 font-size: 16px;
 }
+.get-started-icon{
+    padding:;
+    background:#0000;
+}
+.get-started-icon:hover{
+    color:#fff;
+
+}
 .bg-hero :hover{
     padding:15px 70px;
     background:var(--primary-color);
     margin-top:5px;
     color:#fff;
     font-size: 16px;
-    }
+}
 .hero-right{
     width:100%;
+}
+/* about */
+.about-left{
+    color:#000;
+}
+/* value-section */
+.value-section-color { 
+    background: #fff;
+}
+.value-heading-text{
+    font-size: 60px;
+   font-family: var(--primary-fonts);
+   font-weight: 700;
+   line-height: 68px;
+   color:var(--secondary-color);
+   letter-spacing: .8;
+}
+/* conuter-section */
+.fs-1{
+    color:#4154F1;
+}
+.display-5{
+    font-size: 50px;
+    font-weight: 700;
+    color:#0B198F;
+}
+.fa-address-book{
+    color:#F9B318;
+}
+.fa-headset{
+    color:#15BE56;
+}
+.fa-user-friends{
+    color:#BB0852;
 }
